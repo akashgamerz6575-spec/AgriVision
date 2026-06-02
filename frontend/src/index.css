@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+/* Custom premium scrollbar to match our sustainable design */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300/60 rounded-full transition-colors hover:bg-slate-400/60 dark:bg-slate-700/50 dark:hover:bg-slate-600/50;
+}
+
+/* Smooth leaf skeleton loading pulse */
+@keyframes leafGlow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(0.98);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
+
+.leaf-glow-animation {
+  animation: leafGlow 2s infinite ease-in-out;
+}

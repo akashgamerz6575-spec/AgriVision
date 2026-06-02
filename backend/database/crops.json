@@ -1,0 +1,77 @@
+[
+  {
+    "id": "crop_q8omxsy7q",
+    "userId": "user_oav7rthdk",
+    "cropType": "Tomato (Gray)",
+    "plantingDate": "2026-06-02",
+    "condition": "Water Scheduled",
+    "notes": "DIAGNOSIS ALERT: Identified Gray Mold (Botrytis cinerea) with 95% confidence. Treatment recommended: Immediately remove and destroy all infected fruits and plant parts (do not compost) to prevent the spread of spores to healthy plants.",
+    "lastUpdated": "2026-06-02T10:53:19.944Z"
+  },
+  {
+    "id": "crop_pbmvhwj9u",
+    "userId": "user_oav7rthdk",
+    "cropType": "Wheat (HD 2967)",
+    "plantingDate": "2026-06-02",
+    "condition": "Healthy",
+    "notes": "No visual logs entered yet.",
+    "irrigationTime": null,
+    "harvestTime": null,
+    "lastUpdated": "2026-06-02T09:55:55.763Z"
+  },
+  {
+    "id": "crop_skutpiv9s",
+    "userId": "user_oav7rthdk",
+    "cropType": "Tomato (Gray)",
+    "plantingDate": "2026-06-02",
+    "condition": "Healthy",
+    "notes": "DIAGNOSIS ALERT: Identified Gray Mold (Botrytis Fruit Rot) with 95% confidence. Treatment recommended: Remove and destroy all infected fruits immediately to prevent the spread of spores.",
+    "lastUpdated": "2026-06-02T09:55:51.634Z"
+  },
+  {
+    "id": "crop_4g4otgh0i",
+    "userId": "user_oav7rthdk",
+    "cropType": "Tomato (Arka Rakshak)",
+    "plantingDate": "2026-06-02",
+    "condition": "Healthy",
+    "notes": "No visual logs entered yet.",
+    "irrigationTime": "2026-06-02T17:16",
+    "harvestTime": "2026-06-30T15:16",
+    "lastUpdated": "2026-06-02T09:47:07.688Z"
+  },
+  {
+    "id": "crop_kfqu9zfz5",
+    "userId": "user_oav7rthdk",
+    "cropType": "Tomato (Arka Rakshak)",
+    "plantingDate": "2026-06-02",
+    "condition": "Water Scheduled",
+    "notes": "All tomatos seeming to be good.",
+    "irrigationTime": "2026-06-02T14:25",
+    "harvestTime": "2026-06-16T14:23",
+    "lastUpdated": "2026-06-02T09:44:01.631Z"
+  },
+  {
+    "id": "crop_1",
+    "cropType": "Tomato (Arka Rakshak)",
+    "plantingDate": "2026-04-15",
+    "condition": "Healthy",
+    "notes": "Blossoms starting to appear. Soil moisture level is optimal.",
+    "lastUpdated": "2026-06-02T08:24:56.026Z"
+  },
+  {
+    "id": "crop_2",
+    "cropType": "Paddy (IR64)",
+    "plantingDate": "2026-05-01",
+    "condition": "Water Scheduled",
+    "notes": "Needs water replenishment by tomorrow evening. Looking green.",
+    "lastUpdated": "2026-06-02T08:24:56.026Z"
+  },
+  {
+    "id": "crop_3",
+    "cropType": "Cotton (Bt Cotton)",
+    "plantingDate": "2026-03-10",
+    "condition": "Needs Attention",
+    "notes": "Slight yellowing observed on lower leaves. Under inspection.",
+    "lastUpdated": "2026-06-02T08:24:56.026Z"
+  }
+]

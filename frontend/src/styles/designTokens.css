@@ -1,0 +1,80 @@
+/* Design Tokens for AgriShield UI */
+:root {
+  /* Primary palette */
+  --color-primary: hsl(150, 30%, 30%); /* deep forest green */
+  --color-primary-light: hsl(150, 30%, 45%);
+  --color-primary-dark: hsl(150, 30%, 20%);
+  /* Secondary / accent */
+  --color-accent: hsl(30, 40%, 40%); /* warm earth tone */
+  --color-accent-light: hsl(30, 40%, 55%);
+  --color-accent-dark: hsl(30, 40%, 25%);
+  /* Backgrounds */
+  --color-bg-light: hsl(0, 0%, 98%);
+  --color-bg-dark: hsl(210, 10%, 10%);
+  --color-surface: rgba(255, 255, 255, 0.8);
+  --color-surface-dark: rgba(0, 0, 0, 0.6);
+  /* Text */
+  --color-text-primary: hsl(210, 15%, 15%);
+  --color-text-on-primary: hsl(0, 0%, 100%);
+  --color-text-muted: hsl(210, 10%, 45%);
+  /* Elevation / glass */
+  --blur-glass: 12px;
+}
+
+/* Global resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: var(--color-bg-light);
+  color: var(--color-text-primary);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] body {
+  background: var(--color-bg-dark);
+  color: var(--color-text-on-primary);
+}
+
+/* Utility classes */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: var(--color-primary);
+  color: var(--color-text-on-primary);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+.btn:hover {
+  background: var(--color-primary-light);
+  transform: translateY(-2px);
+}
+
+.card {
+  background: var(--color-surface);
+  backdrop-filter: blur(var(--blur-glass));
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.alert {
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+.alert.error {
+  background: hsla(0, 70%, 50%, 0.1);
+  color: hsl(0, 70%, 50%);
+  border-left: 4px solid hsl(0, 70%, 50%);
+}
